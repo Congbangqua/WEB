@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+  background-color: rgb(3, 56, 56);
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.img {
+  width: 70%;
+  padding: 10px;
+}
+
+.img2 {
+  width: 50%;
+  padding: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a:hover{
+    background-color: hsl(200, 92%, 29%);
+}
+
+.navbar li{
+    float: left;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Welcome</h1>
+    <p>To hell.</p>
+  </div>  
+
+<nav class="navbar">
+    <ul>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div class="row">
+  <div class="side">
+    <h2>Về bản thân</h2>
+    <div class="img">
+        <img class="img" src="c:\Users\Admin\Downloads\z5762434761995_b4ebfc28c584f7c92a19003012eb1c1d.jpg" >
+    </div> 
+    <h3>More about me</h3>
+    <p>Họ và tên: Chu Huỳnh Anh Khoa.</p>
+    <p>Lớp: 21BITV03</p>
+    <p>MSSV: 2100006053</p>
+    <p>Viện đào tạo quốc tế NTT(NIIE)</p>
+  </div>
+  <div class="main">
+    <h2>Viện đào tạo quốc tế NTT</h2>
+    <div class="img2">
+        <img class="img2" src="c:\Users\Admin\Downloads\NTT.jpg">
+    </div>
+    <p>Viện Đào tạo Quốc tế NTT (NIIE) là đơn vị tiên phong của Trường Đại học Nguyễn Tất Thành trong công tác Quốc tế hóa giáo dục đại học. NIIE có bề dày kinh nghiệm hợp tác với các trường đại học uy tín tại các quốc gia có nền giáo dục tiên tiến mang đến cho sinh viên cơ hội trải nghiệm nền giáo dục đạt chuẩn quốc tế ngay tại Việt Nam. </p>
+    <p>NIIE phát triển 2 hệ chương trình: chương trình liên kết Pearson BTEC HND và chương trình chuẩn quốc tế nhằm đáp ứng nhu cầu đào tạo nguồn nhân lực chất lượng cao trong xu thế xã hội ngày càng hội nhập sâu rộng.</p>
+    <br>
+    <h2>Học vấn</h2>
+    <div class="img">
+        <img class="img" src="c:\Users\Admin\Downloads\cong-nghe-thong-tin-hiu-1.jpg">
+    </div>
+    <h5>Nghành công nghệ thông tin</h5> 
+    <p>Khóa thứ 21 (2021-2025)</p>
+    <p>Học tại 458/3F Đ. Nguyễn Hữu Thọ, Tân Hưng, Quận 7, Hồ Chí Minh, Việt Nam</p>
+  </div>
+</div>
+
+</body>
+</html>

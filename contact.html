@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+  background-color: rgb(3, 56, 56);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.img {
+  width: 70%;
+  padding: 10px;
+}
+
+.img2 {
+  width: 50%;
+  padding: 25px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a:hover{
+    background-color: hsl(200, 92%, 29%);
+}
+
+.navbar li{
+    float: left;
+}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Welcome</h1>
+    <p>To hell.</p>
+  </div>
+
+<nav class="navbar">
+    <ul>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div class="row">
+  <div class="side">
+    <h2>Về bản thân</h2>
+    <div class="img">
+        <img class="img" src="c:\Users\Admin\Downloads\z5762434761995_b4ebfc28c584f7c92a19003012eb1c1d.jpg" >
+    </div> 
+    <h3>More about me</h3>
+    <p>Họ và tên: Chu Huỳnh Anh Khoa.</p>
+    <p>Lớp: 21BITV03</p>
+    <p>MSSV: 2100006053</p>
+    <p>Viện đào tạo quốc tế NTT(NIIE)</p>
+  </div>
+  <div class="main">
+    <h2>Contact info</h2>
+    <p>Facebook: https://www.facebook.com/chu.khoa.12979/</p>
+    <p>github: https://github.com/Congbangqua</p>
+    <br>
+  </div>
+</div>
+
+</body>
+</html>
